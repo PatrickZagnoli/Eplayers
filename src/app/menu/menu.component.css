@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+mat-toolbar{
+  font-family: 'Roboto';
+  background-color: #1E1C21;/* Define a cor do cabeçalho */
+  height: 200px; /* Define a altura do cabeçalho */
+  padding-top: 20px; /* Define o espaçamento superior do cabeçalho */
+}
+
+span{
+   padding: 10px;
+}
+
+img{
+    height: 50px;
+    width: 150px;
+}
+
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+  

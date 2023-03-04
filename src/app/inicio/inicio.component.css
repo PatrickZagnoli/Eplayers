@@ -1,0 +1,123 @@
+main{
+    min-height: 500px;
+}
+
+#section-banner{
+    min-height: 400px;
+}
+
+#section-banner img{
+    height: 500px;
+}
+
+
+/*
+
+.container-grid{
+    width: 1200px ;  Define a largura dos elementos do cabeçalho em relação as bordas do computador 
+    margin: 0 auto;  Define a margem dos elementos do cabeçalho 
+    }
+    
+   
+.conteudo-banner h1 /* Mexe no título "E-players" {
+        color: white;
+        font-family: "Titillium Web";
+        font-size: 80px;
+    }
+    
+    .conteudo-banner p  Mexe no parágrafo " O maior portal de campeonatos online "{
+        color: white;
+        font-family: "Roboto";
+        font-size: 25px;
+    }
+    
+    .conteudo-banner a  Mexe no botão " Inscreva-se "{
+        padding: 15px;
+        background-color: #c31616;
+        color: white;
+        font-family: "Roboto";
+        text-decoration: none;  Retira a linha embaixo de "Inscreva-se" 
+        text-transform: uppercase;  Tranforma as letras minusculas em maiusculas 
+        font-size: 25px;
+        border-radius: 5px;                 Vai arredondar as bordas do botão "Inscreva-se" 
+    }
+    
+    .conteudo-banner{
+        width: 497px;
+        height: 237px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .posicionamento-banner{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+       
+    }*/
+
+
+.example-card {
+    max-width: 600px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: auto;
+}
+
+.promocao{
+    background-color: black;
+}
+
+h2{
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+mat-card{
+    background-color: #afadad;
+    width: 250px;
+    height: 310px;
+}
+
+mat-grid-list{
+    margin: 1.5px 0px;
+}
+
+mat-grid-tile{
+    padding: 20px;
+    border-radius: 30px;
+}
+
+mat-card-actions{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+mat-card-actions p{
+    font-size: 25px;
+    color:rgb(226, 19, 19);
+}
+
+mat-card-actions > button{
+   color: #FFFFFF;
+   background-color: rgb(226, 19, 19);
+   margin: 5px;
+}
+
+
+
+  
